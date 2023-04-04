@@ -14,4 +14,4 @@ exceptions
 Importing Azure SQL\
 sqlpackage /Action:Import /tsn:tcp:<sql-server>.database.windows.net,1433 /tdn:<sqldb-new> /tu:<admin-name> /tp:<password> /sf:<local-DB.bacpac>\
 Exporting Azure SQL\
-sqlpackage /Action:Import /tsn:tcp:<sql-server>.database.windows.net,1433 /tdn:<sqldb-new> /tu:<admin-name> /tp:<password> /tf:<local-DB.bacpac>\
+sqlpackage /Action:Import /tsn:tcp:<sql-server>.database.windows.net,1433 /tdn:<sqldb-new> /tu:<admin-name> /tp:<password> /tf:<local-DB.bacpac>
